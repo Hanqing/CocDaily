@@ -1,0 +1,125 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+def keyStore = file('cocdaily.keystore')
+
+android {
+
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+    lintOptions {
+        disable 'MissingTranslation', 'ExtraTranslation'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs {
+        app1 {
+            storeFile file('cocdaily.keystore')
+            storePassword project.hasProperty('STOREPASS') ? STOREPASS : ''
+            keyAlias project.hasProperty('KEYALIAS') ? KEYALIAS : ''
+            keyPassword project.hasProperty('KEYPASS') ? KEYPASS : ''
+        }
+    }
+
+    buildTypes {
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (keyStore.exists()) {
+                println "Meizhi: using drakeet's key"
+                signingConfig signingConfigs.app1
+            } else {
+                println "Meizhi: using default key"
+            }
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为Meizhi_v1.0_2015-01-15_wandoujia.apk
+                        def fileName = "Meizhi_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+
+        productFlavors {
+            fir {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fir"]
+            }
+            GooglePlay {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "GooglePlay"]
+            }
+            Umeng {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Umeng"]
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        disable "InvalidPackage"
+        lintConfig file("lint.xml")
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(":libraries:headsupcompat")
+    compile project(":libraries:smooth-app-bar-layout")
+    compile rootProject.ext.dependencies["design"]
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["recyclerview-v7"]
+    compile rootProject.ext.dependencies["picasso"]
+    compile rootProject.ext.dependencies["numberprogressbar"]
+    compile rootProject.ext.dependencies["photoview"]
+    compile rootProject.ext.dependencies["umeng-analytics"]
+    compile rootProject.ext.dependencies["retrofit"]
+    compile rootProject.ext.dependencies["rxandroid"]
+    compile rootProject.ext.dependencies["okhttp-urlconnection"]
+    compile rootProject.ext.dependencies["okhttp"]
+    compile rootProject.ext.dependencies["butterknife"]
+    compile rootProject.ext.dependencies["otto"]
+    compile rootProject.ext.dependencies["glide"]
+}
+
