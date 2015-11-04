@@ -1,0 +1,437 @@
+$ Version 3.6 (October 20, 2015)
+- Updated Thing page
+- Many bug fixes
+
+$ Version 3.5 (October 1, 2015)
+- Support for Google Smart Lock for Password
+- Timeline now includes featured users, stores and collections
+- Activity feed performance improvements
+- New item card design
+- Updated Google branding
+- Various bug fixes and design improvements
+
+$ Version 3.3 (August 21, 2015)
+- Updated and refined material design
+- Fixed translation errors for some languages
+- Various bug fixes and improvements
+
+$ Version 3.2 (July 21, 2015)
+- Introducing Activity Feed! Keep up with your friends and favorites stores on Fancy.
+- Introducing Messaging! Share and talk about your finds with friends directly in the app.
+- Various bug fixes and improvements
+
+$ Version 3.1 (June 5, 2015)
+- Introducing Picks! A brand new way explore Fancy's expansive product catalog
+- Various bug fixes and improvements
+
+$ Version 3.0 (May 26, 2015)
+- Completely redesigned Shop screens
+- Drawer menu includes your new profile cover image and design updates
+- Improved item and profile screens
+- Add to Fancy can now be accessed via the floating action button on your profile screen
+- Updated Account Settings
+- Various material design enhancements and bug fixes
+- Updated translations
+
+$ Version 2.99 (April 23, 2015)
+- New Group Gift screens
+- Redesigned Add to Cart and info dialogs
+- Various bug fixes and performance improvements
+
+$ Version 2.97 (March 19, 2015)
+- New and improved item info screen
+- Adjusted item card sizes for tablet users
+- Improvements to search and search results
+- Fixed memory issues experienced on some devices
+
+$ Version 2.96 (March 9, 2015)
+- New user profile design with customizable cover images
+- New List and Gift Guide screens
+- Fixed bugs experienced by some Gingerbread users
+
+$ Version 2.95 (February 25, 2015)
+- New Merchant Store screen
+- Improved action bar behaviour on Timeline, Shop and Merchant Stores
+- Added support for notification links
+- Various bug fixes and improvements
+
+$ Version 2.94 (February 4, 2015)
+- Featured item slideshow
+- Enjoy amazing reductions in the On Sale section
+- See the most popular Shop items on Fancy
+- Shop for your friends with easy access to Gift Guides
+- Improved category navigation and filters
+
+$ Version 2.93 (January 16, 2015)
+- Now available: Vanity Numbers! Choose your own awesome phone number
+- New: Browse / Sales / Recommendations pages
+- Updated: Same Day Delivery page
+- New: Auto-hide action bar on scroll
+- New: Scroll to top when touching action bar (FANCY logo or layout Title)
+
+$ Version 2.92 (December 11, 2014)
+- New pull to refresh and drawer menu design
+- Add to Fancy from a website using the drawer menu
+- Add to Cart dialogs now display approximate local currency (Set in Preferences)
+
+$ Version 2.91 (November 19, 2014)
+- Play Promotion: 10% off when Buy with Google
+
+$ Version 2.90 (November 18, 2014)
+- Beautiful new Material Design to suit Android 5.0
+- Access Shop Sales to enjoy reductions on Fancy things
+- Bug fixes and performance improvement
+
+$ Version 2.81 (October 27, 2014)
+- Add to Fancy: New design and improved Image Uploader
+- New Gift Guides and Recommendations pages
+- 'Swipe to Refresh' enabled even on empty feed pages
+- Improved the sync of 'Fancyd' and 'Added' tabs on Profiles
+- Minor layout adjustments for Tablets and Landscape mode
+- Design improvements for Dialogs, Spinners, Lists and Components, etc
+- Various bug fixes
+
+$ Version 2.80 (October 20, 2014)
+- Fixed: "Network Error" issue on some devices
+
+$ Version 2.79 (October 2, 2014)
+- New design for managing your Fancy Box subscriptions
+- Fixed a problem seen on wearable devices during checkout
+- and design improvements
+
+$ Version 2.78 (September 16, 2014)
+- Fixed: Crash on some devices
+
+$ Version 2.77 (September 16, 2014)
+- Categories on Timeline moved to Action Bar
+- Drawer menu shows selected item
+- Improved app performance
+- Various bug fixes and design improvements
+
+$ Version 2.76 (September 10, 2014)
+- Shuffle is back!
+- Minor bug fixes and improvements
+- Updated translations
+
+$ Version 2.75 (September 5, 2014)
+- Updated Facebook SDK
+- Minor bug fixes and improvements
+- Updated translations
+
+$ Version 2.74 (August 21, 2014)
+- New Buy Gift Card / Redeem Gift Card design
+- Quicker access to your Account from the drawer
+- Removed flickering sometimes caused by loading the Timeline
+- Fixed untappable 'Touch to see new things' badge
+- Improved reliability when sharing Things and Profiles to social networks
+- Sending a Gift Card now shows the sender's information
+- Updated translations
+- Other minor bug fixes and improvements
+
+$ Version 2.73 (August 13, 2014)
+- Improved Timeline performance
+- Fixed minor bugs related to the Checkout process
+- Various design improvements
+
+$ Version 2.72 (August 12, 2014)
+- New Settings design
+- Improved private profile design
+- Minor bug fixes and improvements
+
+$ Version 2.71 (August 6, 2014)
+- New! You can now track your orders with Google Wallet!
+- Updated translations
+
+$ Version 2.70 (July 21, 2014)
+- Fixed a crash sometimes caused by receiving notifications
+- Minor bug fixes and improvements
+
+$ Version 2.69 (July 21, 2014)
+- New Account, Order History and Order Detail pages
+- Notification links now work more properly
+- New: Vibration setting in Notification
+- Fixed: Sound setting in Notification
+- Fixed: Duplicate feed recommendation to wearables
+- Many other minor improvements
+
+$ Version 2.68 (July 7, 2014)
+- Fixed: Crash on Cart page
+
+$ Version 2.67 (July 2, 2014)
+- New: Android Wear support
+- You can browse, Fancy, reply, and buy from your wear devices.
+
+$ Version 2.66 (June 20, 2014)
+- Minor bug fix release
+
+$ Version 2.65 (June 17, 2014)
+- Fixed: Occasional crash on Thing page
+- Fixed: Always prompting to refresh
+
+$ Version 2.64 (June 11, 2014)
+- Improved Notifications
+- Minor bug fixes
+- Updated translations
+
+$ Version 2.63 (May 19, 2014)
+- New Sign-in Screen!
+- New Onboarding and tutorial
+- Changed: Facebook invitation method
+- Fixed: Support Landscape mode on Profile page
+- Fixed: Many other minor crashes
+
+$ Version 2.62 (Apr 29, 2014)
+- Fixed: Occasional crashes on resuming
+
+$ Version 2.61 (Apr 25, 2014)
+- All-new Profile page
+- New Find Friends and Invited pages
+- Tap and hold on an item in list
+- Many other minor fixes and improvements
+
+$ Version 2.60 (Apr 11, 2014)
+- Fixed slow image loading problem on pre 4.2 devices
+
+$ Version 2.59 (Apr 7, 2014)
+- Updated Translations
+- Fixed: Fancy button being unresponsive on Thing page sometimes
+- Fixed: Issues on Alcatel devices
+- Fixed: Network Issues on some environments
+
+$ Version 2.56 (Mar 8, 2014)
+- Fixed Crash when purchasing FancyBox for the first time
+
+$ Version 2.55 (Mar 7, 2014)
+- New and better Cart page
+- Improved memory issues on some devices
+- Other minor improvements
+
+$ Version 2.54 (Feb 21, 2014)
+- Long press an image to download
+- More details on Quick Add to Cart dialog from timeline
+- Fixed a crash on selecting quantity
+- Fixed a crash on Gift Guide - Colors
+
+$ Version 2.53 (Feb 20, 2014)
+- "Swipe down to refresh" works on Gingerbread now.
+- Better animation on Full Screen image view
+- Fixed crashes on Full Screen or Sharing to Fancy
+- Minor UI improvements everywhere and updated translations
+
+$ Version 2.52 (Feb 14, 2014)
+- Fixed: Crashes at start on some devices
+- Minor improvements
+
+$ Version 2.51 (Feb 13, 2014)
+- New and Improved Thing Page
+- Bitcoin Support: Buy your favorite things with Bitcoin!
+- New Checkout Page
+- Support upload from Kitkat's new Document Chooser
+- Many other minor improvements
+
+$ Version 2.48 (Jan 23, 2014)
+- Swipe down to Refresh in Cart and Order History pages
+- Fixed: Editing a comment didn't work properly
+
+$ Version 2.47 (Jan 21, 2014)
+- Fixed high background CPU (thus battery) usage on some devices
+
+$ Version 2.46 (Jan 20, 2014)
+- New Timeline: Beautiful larger images. Filter things by your favorite Categories. Quickly add an item to your cart with the new Add to Cart button beneath the item image. View and post comments without leaving the Timeline screen.
+- Google Wallet now supports International Shipping
+- App Drawer: Clearer structure for easier navigation around the app
+- Search: New design with voice dictation
+- Fixed: a problem some users were experiencing with Twitter sign-in.
+
+$ Version 2.45 (Dec 19, 2013)
+- Immersive mode for Full-screen page on Kitkat devices
+- Fixed: Blank screen or crash on full-screen page
+- Other minor bugs
+
+$ Version 2.44 (Dec 17, 2013)
+- New: Tapping a thing image now opens Sale Dialog. You can use the full-screen icon on the image.
+- Fixed: Some errors in Share to Social Networks
+- Dropped Froyo support due to Google Play Services' decision
+- Other minor improvements
+
+$ Version 2.43 (Dec 5, 2013)
+- Fixed: Items not showing up in some locales
+- Other minor fixes and updated translations
+
+$ Version 2.42 (Dec 2, 2013)
+- Fixed: UI issues in Same-day Delivery page
+- Fixed: Sharing to a certain app
+- Other minor bugs
+
+$ Version 2.41 (Nov 23, 2013)
+- Fixed: Crash when hiding a banner
+
+$ Version 2.40 (Nov 22, 2013)
+- Holiday Coupon
+- New: GIft Message when purchasing a gift
+- New: FancyBox List
+- UI Improved for large-font devices
+
+$ Version 2.39 (Nov 12, 2013)
+- Fixed: Crash on some devices
+
+$ Version 2.38 (Nov 12, 2013)
+- New: Full-screen image view (touch a thing image to open)
+- New: Comment menu (translate/report/mention)
+- New: Rotate on Uploading images
+- Download Image feature is back (long-press a thing image)
+- Many other UI improvements
+
+$ Version 2.37 (Nov 4, 2013)
+- Detect your city in Same-Day delivery screen
+- Updated Translations
+
+$ Version 2.36 (Oct 23, 2013)
+- New: A whole new Thing page
+- Fixed: Handles sold-out items better
+- Other minor bugs
+
+$ Version 2.34 (Oct 15, 2013)
+- Same-Day Delivery page
+- Other minor bugs and UI fixes
+
+$ Version 2.33 (Oct 1, 2013)
+- Minor UI and bugs fixed
+- Translations updated
+
+$ Version 2.31 (Sep 17, 2013)
+- Fixed: Sale dialog crashed on some devices
+- Fixed: App didn't work on some custom roms
+
+$ Version 2.29 (Sep 16, 2013)
+- New Sales page design
+- Fixed: Crashed while adding a coupon code to FancyBox
+- Fixed: Duplicate items on Lists
+- Fixed: Weibo Sign-In
+- Fixed; Google Wallet button showed on non-US phones
+- Other minor bugs and UI fixes
+
+$ Version 2.28 (Sep 9, 2013)
+- Same-day Shipping
+- Displays "Immediate Shipping"
+- FancyBox Manage page in "My Orders"
+- New Design: Sign In and Cart
+
+$ Version 2.26 (Jul 24, 2013)
+- Fixed: Notification page crashed on Gingerbread and Froyo
+
+$ Version 2.25 (Jul 22, 2013)
+- New: Shop menu replaces the old Browse screen.
+- Basic Google TV Support
+- Facebook sign-in now works again without Facebook app.
+- Share to Facebook uses Facebook app if available.
+- Minor UI Improvements
+
+$ Version 2.24 (Jul 7, 2013)
+- Google Wallet Promotion: $20 discount for first $50+ purchases
+- New: An option to disable Wallet for non-US users
+
+$ Version 2.23 (Jun 28, 2013)
+- New GIft Recommendation page
+- Better translation for some languages
+- Fixed: Failed to recover timeline's last position
+
+$ Version 2.22 (Jun 13, 2013)
+- Fixed: Crashes and some UI issues
+
+$ Version 2.21 (Jun 11, 2013)
+- New Timeline Design and minor UI improvement
+- Fixed: Twitter related features
+
+$ Version 2.20 (May 15, 2013)
+- New: Google Wallet support!
+- Better image quality at Thing page on some devices
+- Fixed: multiple notification sound going off at once 
+
+$ Version 2.16 (May 10, 2013)
+- Fixed: Crash on sign-in on some tablet devices
+- Fixed: Crash on HoneyComb when downloading images
+- Other minor crashes 
+
+$ Version 2.15 (May 9, 2013)
+- Shipping status on Order Detail page
+- Link/Unlink more social accounts on Setting page
+- Notification Setting menu on Activity page
+- Fixed: Note was missing on Order Detail page
+- Bug fixes and some UI improvements
+* ACCESS_NETWORK_STATE permission has been added to better detect when the internet connection is unavailable.
+
+$ Version 2.14 (Mar 15, 2013)
+- Push Notification!
+- Image download destination changed so it's visible in Gallery
+- You can now add items to Wish List and view them in your profile page.
+- Email confirmation link can be opened by the app now.
+- Changed: Back Button behavior on the main activity
+- Fixed: Multiple refresh icons in Browse
+
+$ Version 2.12 (Feb 26, 2013)
+- New Google Plus integration!
+- New on Thing Page - Long press on image to save or copy url.
+- Web Link can be added on Uploading
+- Fixed: Add To List dialog showing all lists unchecked
+- Fixed: Some crashes on resuming the app
+
+$ Version 2.11 (Feb 19, 2013)
+- New Languages: Basque, Chinese (Taiwan), Czech, Lithuanian, Thai, Ukrainian
+- New: Sharing user profiles
+- New: FancyBox subscription screen
+- New Facebook SDK implemented
+- Minor UI Improvements and Optimizations  
+- Fixed: Twitter Sign-in
+- Fixed: Crash when purchasing with gift card only
+
+$ Version 2.08 (Nov 22, 2012)
+- Edit/Delete comments
+- Minor UI fixes
+
+$ Version 2.07 (Nov 21, 2012)
+- New Design for Browse and Notification
+- Show Someone on Thing activity
+- New Language: Dutch
+- Fixed: Slow start-up time
+
+$ Version 2.06 (Nov 19, 2012)
+- New: Coupon, Gift option on Cart
+- New: 'Double tap to Fancy' now also works on Thing screen
+- New: "Getting Started" for new users
+- Minor UI Improvements and fixes  
+
+$ Version 2.05 (Nov 16, 2012)
+- New: Gift Menu with Gift Guide
+- Fixed: Order history not appearing for some users
+
+$ Version 2.04 (Nov 15, 2012)
+- New: Group Gift
+- Fixed: Short UI freezes during scrolling
+- Fixed: Other bugs and crashes
+
+$ Version 2.03 (Nov 14, 2012)
+- Fixed: Crash on some 2.x devices
+
+$ Version 2.02 (Nov 13, 2012)
+- 'Everything' on Browse
+- Sharing URL from browser now works again (image direct link only)
+- More optimization for scrolling performance
+- Fixed: High background CPU usage in some devices 
+- Fixed: Unnecessary network operations on background (battery drain problem)
+- Fixed: Sign in with email address including dot
+- Fixed: Wrong strings on Gift Recommendation screen
+- Fixed: Scroll freezing on some devices
+- Fixed: More crashes
+
+$ Version 2.01 (Nov 12, 2012)
+- Improved Scroll Performance
+- Fixed: Crash on Facebook sign-up for some users
+- Fixed: Crash when reloading
+- Fixed other crashes on some devices. 
+
+$ Version 2.00 (Nov 11, 2012)
+- New: Complete Redesign for Android
+- New: Gift Card and Gift Recommendation Expert
+- New: Double tap to Fancy on Feed
+- New: Swipe Left/Right in Thing page
