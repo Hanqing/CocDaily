@@ -1,1 +1,1 @@
-include ':app', ':libraries:headsupcompat', ':libraries:smooth-app-bar-layout'
+include ':app'
